@@ -1,0 +1,12 @@
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+c=str(input("Enter thye operator"))
+sum = a + b
+diff = a - b
+
+if c == "+":
+    print("the sum is",sum)
+elif c == "-":
+    print("the difference is ",diff)
+else:
+    print("wrong operator")
